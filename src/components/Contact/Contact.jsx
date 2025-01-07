@@ -7,8 +7,10 @@ export default function Contact() {
       <div className=' text-left mt-36  justify-center items-center mb-16'>
             <h2 className='text-4xl font-bold text-center mb-5'>PORTFOLIO COMPONENT</h2>
             <p className='mb-4 text-center
-              before:relative before:top-[15px] before:left-[42%] before:block before:content-[""] before:bg-black before:w-[90px] before:h-[4px]  
-              after:relative after:top-[-12px] after:left-[52%] after:block after:content-[""] after:bg-black after:w-[90px] after:h-[4px]
+              w-[300px]
+              mx-auto
+              before:relative before:top-[15px] before:left-[12%] before:block before:content-[""] before:bg-black before:w-[90px] before:h-[4px]  
+              after:relative after:top-[-12px] after:left-[59%] after:block after:content-[""] after:bg-black after:w-[90px] after:h-[4px]
             '>
               <i className="fa-solid fa-star"  ></i>
             </p>

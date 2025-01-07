@@ -7,9 +7,11 @@ export default function About() {
           <div className='text-center text-white '>
             <h2 className='text-5xl font-bold mt-16 mb-5'>ABOUT COMPONENT</h2>
             <div className='
+              w-[300px]
+              mx-auto
               mb-3
-              before:relative before:top-[15px] before:left-[42%] before:block before:content-[""] before:bg-white before:w-[90px] before:h-[4px]  
-              after:relative after:top-[-12px] after:left-[52%] after:block after:content-[""] after:bg-white after:w-[90px] after:h-[4px]
+              before:relative before:top-[15px] before:left-[12%] before:block before:content-[""] before:bg-white before:w-[90px] before:h-[4px]  
+              after:relative after:top-[-12px] after:left-[59%] after:block after:content-[""] after:bg-white after:w-[90px] after:h-[4px]
             '>
             <i className="fa-solid fa-star"></i>
             </div>
