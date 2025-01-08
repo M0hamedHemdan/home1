@@ -1,10 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo1 from '../../assets/poert1.png'
 import logo2 from '../../assets/port2.png'
 import logo3 from '../../assets/port3.png'
 
 
 export default function Portfolio() {
+  const[ coant , setcoant]=useState("hidden")
+  function hamada(    ){
+
+    if (useState == "flex") {
+      setcoant("hidden")
+      coant
+      
+    }
+    else{
+      setcoant("flex")
+      coant
+    }
+  
+  }
+  function medo(){
+    setcoant("hidden")
+  }
+
+
   return (
     <>
       <section className=' text-left mt-36  justify-center items-center mb-16'>
@@ -17,7 +36,7 @@ export default function Portfolio() {
             '>
               <i className="fa-solid fa-star"  ></i>
             </p>
-              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-[90%] mx-auto'>
+              <div onClick={()=>hamada( )} className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-[90%] mx-auto'>
                 <div className='relative'>
                   <img src={logo1} className='rounded-2xl' alt="" />
                   <span className='absolute top-0 left-0 right-0 bottom-0 items-center flex justify-center text-9xl text-white bg-teal-500 rounded-2xl opacity-0 transition hover:opacity-85  hover:duration-700 '>
@@ -55,7 +74,13 @@ export default function Portfolio() {
                   </span>
                 </div>
               </div>  
-      </section>
+              
+              <div onClick={()=>medo()} className={` bg-opacity-75  justify-center items-center bg-slate-300  fixed top-0 left-0 bottom-0 right-0 ${coant} `}>
+                <div className={`w-[80%] rounded-xl overflow-hidden`}>
+                  <img src={logo1} alt="" />
+                </div>
+              </div>
+      </section>      
     </>
   )
 }

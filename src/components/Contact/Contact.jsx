@@ -2,6 +2,11 @@ import React from 'react'
 
 
 export default function Contact() {
+
+  
+
+
+
   return (
     <section>
       <div className=' text-left mt-36  justify-center items-center mb-16'>
@@ -16,7 +21,7 @@ export default function Contact() {
             </p>
             </div>
 
-            <form className="max-w-md mx-auto">
+            <form className="max-w-md mx-5 sm:mx-auto">
                 <div className="relative z-0 w-full mb-5 group">
                     <input type="text" name="floating_email" id="floating_email" className="block p-4 w-full text-lg text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0  peer" placeholder=" " required />
                     <label htmlFor="floating_email" className="peer-focus:font-medium absolute text-1xl text-gray-500 duration-300 transform -translate-y-6 scale-75 top-6 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-teal-500  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">userName</label>
